@@ -1,0 +1,37 @@
+{
+  "name": "Processor A",
+  "num_qubits": 5,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "ports": [],
+  "noise": {
+    "type": "illustrative_depolarizing_and_readout",
+    "source": "team_assumption_not_official_calibration",
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.01,
+    "readout_error_probability": 0.02
+  },
+  "definition_status": "topology_transcribed_from_organizer_reference_image; noise_is_illustrative"
+}

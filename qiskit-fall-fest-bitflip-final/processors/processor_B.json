@@ -1,0 +1,53 @@
+{
+  "name": "Processor B",
+  "num_qubits": 9,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "ports": [],
+  "noise": {
+    "type": "illustrative_depolarizing_and_readout",
+    "source": "team_assumption_not_official_calibration",
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.01,
+    "readout_error_probability": 0.02
+  },
+  "definition_status": "TEAM_WORKING_MODEL_9_VISIBLE_NODES; connectivity_and_noise_require_verification"
+}
